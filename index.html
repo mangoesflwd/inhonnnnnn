@@ -159,7 +159,7 @@
     max-width: 720px;
   }
   .hero h1{
-    margin: 0 0 10px;
+    margin: 0 0 28px;
     font-family: 'Titan One', cursive;
     font-size: clamp(3.2rem, 10vw, 6.2rem);
     line-height: 0.95;
@@ -179,14 +179,6 @@
     pointer-events: none;
     user-select: none;
     z-index: 1;
-  }
-  .hero-subtitle{
-    display: block;
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 0.85rem;
-    color: var(--text-muted);
-    letter-spacing: 0.02em;
-    margin-bottom: 36px;
   }
   .hero-link{
     display: inline-flex;
@@ -325,7 +317,11 @@
   .bg-1{ background: linear-gradient(145deg, #1d1a24, #2e2140); }
   .bg-2{ background: linear-gradient(145deg, #191720, #241a30); }
   .bg-3{ background: linear-gradient(145deg, #1c1826, #302044); }
-  .bg-4{ background: linear-gradient(145deg, #171520, #271b38); }
+  .bg-4{
+    background-image: url('https://img.youtube.com/vi/_XFRlbV9oAg/maxresdefault.jpg');
+    background-size: cover;
+    background-position: center;
+  }
 
   /* ---------- contact ---------- */
   .contact-list{
@@ -417,7 +413,6 @@
     <div class="hero-glow" aria-hidden="true"></div>
     <div class="wrap hero-inner">
       <h1>Cochel<span class="hat-wrap">a<img src="hat.png" alt="" class="hat-img" aria-hidden="true"></span></h1>
-      <span class="hero-subtitle">Gaming video editor</span>
       <a class="hero-link" href="#work">see work</a>
     </div>
   </section>
@@ -476,7 +471,7 @@
           </div>
         </a>
 
-        <a class="card sticker" href="#" target="_blank" rel="noopener">
+        <a class="card sticker" href="https://youtu.be/_XFRlbV9oAg" target="_blank" rel="noopener">
           <div class="thumb bg-4">
             <span class="thumb-tag mono"><i></i>clip 04</span>
             <span class="play" aria-hidden="true">
@@ -484,8 +479,8 @@
             </span>
           </div>
           <div class="card-body">
-            <h3>Minecraft — build timelapse</h3>
-            <p>Hours of building in under a minute, without losing the read.</p>
+            <h3>Re-edit of Pal's video</h3>
+            <p>A re-edit built on top of Pal's original footage, retimed and recut.</p>
             <span class="watch mono">watch on youtube</span>
           </div>
         </a>
